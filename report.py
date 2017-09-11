@@ -47,4 +47,5 @@ if __name__ == '__main__':
     t = [["python", "tools"], ["linux", "tools", "ubuntu"]]
     tt = [' '.join(ttt) for ttt in t]
     print(tt)
+    print(1)
 
