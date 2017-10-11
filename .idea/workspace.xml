@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497328a0-826e-4b75-a64b-c995ee29522d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_lr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_neuralnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_preprocess.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_classifier.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_knn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_lgbm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_lr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_nn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_preprocess.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_rf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_sgd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/origin_xgb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stacking_nn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stacking_utils.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/preprocess.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tf_classification.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tftest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xgb_classification.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/notebook-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/new_lr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/origin_classifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/origin_knn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/origin_xgb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stackinghelper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classify.py" afterPath="$PROJECT_DIR$/classify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/test.json" afterPath="$PROJECT_DIR$/input/test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input/train.json" afterPath="$PROJECT_DIR$/input/train.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stackinghelper.py" afterPath="$PROJECT_DIR$/stackinghelper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/notebook.ipynb" afterPath="$PROJECT_DIR$/jupyter/notebook.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,12 +89,12 @@
     <favorites_list name="ENGG4802" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="stacking_nn.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stacking_nn.py">
+    <leaf>
+      <file leaf-file-name="origin_sgd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/origin_sgd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,7 +178,6 @@
         <option value="$PROJECT_DIR$/classify.py" />
         <option value="$PROJECT_DIR$/tftest.py" />
         <option value="$PROJECT_DIR$/Final_classifier.py" />
-        <option value="$PROJECT_DIR$/stackinghelper.py" />
         <option value="$PROJECT_DIR$/additional_features_classifier.py" />
         <option value="$PROJECT_DIR$/nn.py" />
         <option value="$PROJECT_DIR$/test.py" />
@@ -216,10 +198,11 @@
         <option value="$PROJECT_DIR$/origin_lr.py" />
         <option value="$PROJECT_DIR$/origin_svm.py" />
         <option value="$PROJECT_DIR$/origin_lgbm.py" />
-        <option value="$PROJECT_DIR$/stacking_utils.py" />
         <option value="$PROJECT_DIR$/origin_rf.py" />
         <option value="$PROJECT_DIR$/origin_sgd.py" />
         <option value="$PROJECT_DIR$/stacking_nn.py" />
+        <option value="$PROJECT_DIR$/stackinghelper.py" />
+        <option value="$PROJECT_DIR$/stacking_utils.py" />
       </list>
     </option>
   </component>
@@ -252,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,11 +242,17 @@
               <item name="ENGG4802" type="b2602c69:ProjectViewProjectNode" />
               <item name="ENGG4802" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ENGG4802" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ENGG4802" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,15 +262,16 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\ENGG4802\jupyter" />
+      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802" />
+      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\origin" />
+      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\ENGG4802" />
       <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\origin\data" />
       <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\input" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802" />
-      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\origin" />
-      <recent name="C:\Users\Luc1fer\PycharmProjects\ENGG4802\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -455,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506817243815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1/10/2017">
+      <created>1507692178547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507692178547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -469,26 +465,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28873238" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7060932" sideWeight="0.50650054" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32642487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45639187" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69814813" sideWeight="0.49349946" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24166666" sideWeight="0.50423217" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37873358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69814813" sideWeight="0.49349946" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37873358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -537,8 +534,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensorflow/whatscooking_model/checkpoint" />
-    <entry file="file://$PROJECT_DIR$/tensorflow/test/graph.pbtxt" />
     <entry file="file://$PROJECT_DIR$/tensorflow/test/model.ckpt-986.data-00000-of-00001" />
     <entry file="file://$PROJECT_DIR$/tf_classification.py" />
     <entry file="file://$PROJECT_DIR$/features/combinations.txt" />
@@ -583,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -672,24 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/origin/data/combined_features.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32337">
           <caret line="194" column="23" lean-forward="false" selection-start-line="194" selection-start-column="23" selection-end-line="194" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -700,36 +674,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_lr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nn.py" />
     <entry file="file://$PROJECT_DIR$/new_nn.py" />
-    <entry file="file://$PROJECT_DIR$/new_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stackinghelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/origin_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/origin_lr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -758,31 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/origin_sgd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/origin_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stacking_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_neuralnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="486">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <marker date="1507516122478" expanded="false" signature="0:190" ph="import ..." />
             <marker date="1507516122478" expanded="true" signature="212:631" ph="..." />
@@ -795,10 +720,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/origin_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2592">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_lr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1507516122525" expanded="false" signature="0:258" ph="import ..." />
+            <marker date="1507516122525" expanded="true" signature="290:1819" ph="..." />
+            <marker date="1507516122525" expanded="true" signature="480:1548" ph="..." />
+            <marker date="1507516122525" expanded="true" signature="757:1061" ph="..." />
+            <marker date="1507516122525" expanded="true" signature="807:1061" ph="..." />
+            <marker date="1507516122525" expanded="true" signature="1558:1769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackinghelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jupyter/notebook.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/notebook-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stacking_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1507711292019" expanded="true" signature="0:70" ph="import ..." />
+            <marker date="1507711292019" expanded="true" signature="151:1265" ph="..." />
+            <marker date="1507711292019" expanded="true" signature="463:1215" ph="..." />
+            <marker date="1507711292019" expanded="true" signature="661:796" ph="..." />
+            <marker date="1507711292019" expanded="true" signature="812:1215" ph="..." />
+            <marker date="1507711292019" expanded="true" signature="847:1059" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stacking_nn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="586">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1507644972124" expanded="false" signature="0:197" ph="import ..." />
+            <marker date="1507644972124" expanded="true" signature="219:564" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="593:3131" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="1489:1588" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="1615:1707" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="1954:2340" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="2157:2283" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="2509:2710" ph="..." />
+            <marker date="1507644972124" expanded="true" signature="3014:3064" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/origin_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1507636480722" expanded="false" signature="0:199" ph="import ..." />
+            <marker date="1507636480722" expanded="true" signature="217:1197" ph="..." />
+            <marker date="1507636480722" expanded="true" signature="716:1197" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/origin_sgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

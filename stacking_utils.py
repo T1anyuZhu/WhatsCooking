@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.model_selection import StratifiedKFold
 
-from origin_classifier import SEED
+SEED = 2017
 
 
 def get_base_predictions(clf, train_x, test_x, train_y, kfold=5):
