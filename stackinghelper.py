@@ -5,17 +5,6 @@ from sklearn.model_selection import StratifiedKFold
 SEED = 2017
 
 
-class StackingHelper(object):
-    def __init__(self, clf):
-        self.clf = clf
-
-    def fit(self, trainX, trainY):
-        self.clf.fit(trainX, trainY)
-
-    def predict(self, testX):
-        return self.clf.predict(testX)
-
-
 def get_y_pred(y_pred, nlabel):
     n = len(y_pred)
     rt = np.zeros((n, nlabel))
@@ -37,4 +26,3 @@ def get_oof(clf, trainX, trainY, testX, kfold=5):
         testing_y_pred = clf.predict(testX)
         rt_testX[i, :] = get_y_pred(testing_y_pred, nlabel)
     return rt_trainX, np.mean(rt_testX, axis=0)
-
