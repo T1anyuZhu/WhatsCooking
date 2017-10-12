@@ -13,6 +13,7 @@ Solution of What's cooking on Kaggle with an accuracy of **81.586%**
   * Use CountVectorizer to vectorize training set and test set.
   * Filter rare words whose occurance less than 5 times.
   * Generate new features by combining two words. Each type of cuisine we generate at most 200 new features.
+  * Use TfidfTransformer on previous matrix.
   * Use neural network to ensemble several base models: LogisticRegression, StochasticGradientDescant, SupportVectorMachine, RandomForest, LightGBM, NeuralNetwork
   
   ## final classifier:
